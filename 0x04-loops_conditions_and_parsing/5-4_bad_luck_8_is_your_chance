@@ -7,7 +7,12 @@ while [ $x -le 10 ]
 
 do
 if
-[ $x -eq 8 ]
+[ $x -eq 4 ]
+then
+    echo "bad luck"
+
+elif
+    [ $x -eq 8 ]
 then
 echo "good luck"
 else
